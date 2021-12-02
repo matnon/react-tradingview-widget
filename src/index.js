@@ -192,7 +192,6 @@ export default class TradingViewWidget extends PureComponent {
 
     if (config.autosize) {
       delete config.width;
-      delete config.height;
     }
 
     if (typeof config.interval === 'number') {
